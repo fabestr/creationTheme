@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+/**********************************************************************
+                    header
+********************************************************************/
+#header {
+    background-image: linear-gradient(to right top, #eeeeee, #c5c4c5, #9e9c9d, #787677, #555252);
+}
+
+
+#header #block-creationtheme-branding {
+    display:flex;
+    align-items:center;
+}
+
+#header a {
+    text-decoration:none;
+}
+
+.site-logo img {
+    width:5vw;
+    margin:1em 1em;
+}
+
+
+
+.site-name a {
+    font-size: 2em;
+
+}
+
+#header .site-name a {
+    color:rgb(133, 10, 10);
+}
+
+/*****************NAV*****************************************/
+
+#header a:link {
+    color:rgb(175, 14, 14); 
+}
+
+#header a:visited {
+    color:rgb(175, 14, 14); 
+}
+
+
+.region-header {
+	display:flex;
+}
+
+.region-header .menu--main {
+  width:100%;
+}
+
+.menu--main .menu {
+	display:flex;
+  	justify-content:flex-end;
+}
+
+.menu--main .menu .menu-item {
+  margin:2em 1em;
+}
+
+
+/***********************************************************************
+                MAIN
+*********************************************************************/
+
+/****************highlight***********************************/
+
+.highlight {
+    background-image: url('images/background-beautiful-blossom-268533.jpg');
+}

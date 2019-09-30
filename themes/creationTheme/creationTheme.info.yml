@@ -1,0 +1,15 @@
+name: creationTheme
+type: theme
+core: 8.x
+base theme: classy
+libraries:
+  - creationTheme/global-styling
+
+#region
+regions:
+  header: 'Header'
+  highlighted: 'backround main'
+  sidebar: 'Sidebar'
+  content: 'Content'
+  footer: 'Footer'
+
