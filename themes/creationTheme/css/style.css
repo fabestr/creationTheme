@@ -71,5 +71,12 @@
 /****************highlight***********************************/
 
 .highlight {
-    background-image: url('images/background-beautiful-blossom-268533.jpg');
+    background-image: url('../images/atmosphere-blue-sky-bright-258149.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slogan-main {
+    margin-top: 0;
 }
