@@ -2,11 +2,16 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 900px;
+    margin:0 auto;
+}
+
 /**********************************************************************
                     header
 ********************************************************************/
 #header {
-    background-image: linear-gradient(to right top, #eeeeee, #c5c4c5, #9e9c9d, #787677, #555252);
+    background-image: linear-gradient(to top, #53a3e0, #78b1e2, #97bfe4, #b4cee5, #d0dce7);
 }
 
 
@@ -69,6 +74,9 @@
 *********************************************************************/
 
 /****************highlight***********************************/
+.background-main {
+    background-image: linear-gradient(to bottom, #d0dce7, #b3d0e7, #94c4e7, #6fb8e7, #39ace7); 
+}
 
 .highlight {
     background-image: url('../images/atmosphere-blue-sky-bright-258149.jpg');
@@ -79,4 +87,8 @@
 
 .slogan-main {
     margin-top: 0;
+    
 }
+
+
+
