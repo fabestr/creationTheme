@@ -1,0 +1,6 @@
+academy:
+    path: /academy
+    defaults:
+        _controller: 'Drupal\academy\Controller\AcademyController::hello'
+    requirements:
+        _permission: 'access content'
